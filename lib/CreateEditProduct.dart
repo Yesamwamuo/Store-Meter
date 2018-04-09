@@ -23,11 +23,11 @@ class CreateEditProduct extends StatelessWidget {
         children: <Widget>[
           new TextField(
             controller: _productName,
-            decoration: new InputDecoration(hintText: "Product Name"),
+            decoration: new InputDecoration(labelText: "Product Name"),
           ),
           new TextField(
             controller: _productDdescription,
-            decoration: new InputDecoration(hintText: "Product Description"),
+            decoration: new InputDecoration(labelText: "Product Description"),
           ),
           new EditableText(
               controller: _edit,
